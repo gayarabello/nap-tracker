@@ -1,0 +1,15 @@
+{
+  "name": "nap-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@netlify/blobs": "^11.0.2"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^3.0.0",
+    "netlify-cli": "^18.0.0"
+  },
+  "scripts": {
+    "dev": "netlify dev"
+  }
+}

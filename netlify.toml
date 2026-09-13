@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/timer/:action"
+  to = "/.netlify/functions/timer-:action"
+  status = 200
